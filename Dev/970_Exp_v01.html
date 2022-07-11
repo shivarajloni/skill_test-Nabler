@@ -795,6 +795,8 @@
       top: 10px;
       left: 10px;
       font-weight: 700;
+      color: #FFFFFF;
+      text-align: center;
     }
     .gwd-div-9ly1 {
       position: absolute;
@@ -1012,7 +1014,7 @@
           <div class="gwd-div-ishi gwd-gen-e27wgwdanimation gwd-div-c1b1" id="prex_btn_cta">
             <img class="gwd-img-38aa gwd-img-14r0" is="gwd-image" id="prex_img_btn_cta" source="assets/prex_cta_default_01.svg">
             <img class="gwd-img-38aa gwd-img-1i7e gwd-img-imed" is="gwd-image" id="prex_img_btn_cta_hover" source="assets/prex_cta_hover_01.svg" data-gwd-tl-locked="" data-gwd-tl-hidden="">
-            <p class="gwd-p-fgtp" id="prex_cta_text">Click Here</p>
+            <p class="gwd-p-fgtp" id="prex_cta_text">Explore Resort</p>
             <img is="gwd-image" source="assets/prex_arrows_1.svg" id="prex_arrows" class="gwd-img-8ts5">
             <div class="gwd-div-1jis gwd-div-hqfr gwd-gen-1er4gwdanimation" id="prex_shimmer" data-gwd-tl-hidden=""></div>
           </div>
@@ -1373,6 +1375,8 @@
      // "Click here" button mouse over/out function. 
     gwd.click_here_mouse_over = function(event) {
       console.log("click_here_mouse_over");
+      // var element = document.getElementById("myDiv");
+        event.$opacity = "1";
     };
     gwd.click_here_mouse_out = function(event) {
       console.log("click_here_mouse_out");
